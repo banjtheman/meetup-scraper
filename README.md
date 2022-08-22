@@ -14,7 +14,7 @@ python collect_meetup_data.py
 
 Line 260 has a hardcoded URL for a meetup group, you are free to modify this input mechanism to collect data on whatever group you are looking for.  
 
-Also line 86 invokes the `get_location_data` function which leverages AWS Location Service. Feel free to remove this if you don't need location data.
+Also line 86 invokes the `get_location_data` function which leverages [AWS Location Service](https://aws.amazon.com/location/) and a [place index](https://docs.aws.amazon.com/location/latest/developerguide/places-prerequisites.html). Feel free to remove this if you don't need location data.
 
 The output of the script is a CSV with the following fields.  
 ```
